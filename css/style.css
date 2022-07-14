@@ -1,0 +1,157 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.haeder {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+}
+.container {
+  width: 1230px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.header__logo {
+  display: block;
+  font-size: 26px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header__inner {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 34px;
+  line-height: 37px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.header__content-title span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 44px;
+  line-height: 37px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.header__content p {
+  width: 400px;
+  font-size: 16px;
+  line-height: 27px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.button {
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #ffd429;
+  padding: 15px 25px;
+  color: #000;
+  font-weight: 600;
+}
+
+.how-next__inner h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 26px;
+  line-height: 25px;
+  color: #201b2d;
+  margin-bottom: 70px;
+}
+.how-next__content {
+}
+.how-next__list {
+  display: flex;
+}
+.how-next__item {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.how-next__item img {
+  margin-bottom: 20px;
+}
+
+.how-next__item h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.how-next__item p {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  width: 300px;
+}
+
+.section__form {
+  background-color: #ecf3f8;
+}
+
+.form__inner {
+  text-align: center;
+}
+
+.form__inner h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #201b2d;
+  margin-bottom: 50px;
+}
+
+.form {
+  margin: auto;
+  width: 350px;
+  display: block;
+}
+
+.form input {
+  border: 1px solid #bbbbbb;
+  width: 100%;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.form input:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.button-form {
+  text-align: center;
+  display: block;
+}
+
+.footer {
+  background-color: #164d7a;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+}
